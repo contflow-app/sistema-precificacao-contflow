@@ -54,7 +54,7 @@ abas = st.tabs(["Cadastro de Itens", "Resultados", "Gráficos"])
 with abas[0]:
     st.header("📋 Cadastro e Análise de Itens")
     st.markdown("Adicione os itens, seus custos variáveis diretos e o preço de venda desejado.")
-    num_itens = st.number_input("Quantos itens deseja analisar?", 1, 0, 1)
+    num_itens = st.number_input("Quantos itens deseja analisar?", 1, 50, 1)
     items_data = []
 
     for i in range(num_itens):
