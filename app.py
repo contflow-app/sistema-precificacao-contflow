@@ -13,7 +13,7 @@ st.markdown("""
         .stMetric {background-color: #f1f8e9; border-radius: 8px;}
     </style>
 """, unsafe_allow_html=True)
-st.markdown('<div class="big-font">💡 Otimize sua precificação em poucos passos!</div>', unsafe_allow_html=True)
+st.markdown('<div class="big-font">💡 Otimize sua precificação em poucos passos com este app da CONTFLOW!</div>', unsafe_allow_html=True)
 
 # --- SIDEBAR: CONFIGURAÇÕES GLOBAIS ---
 with st.sidebar:
