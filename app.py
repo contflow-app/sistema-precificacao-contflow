@@ -24,28 +24,27 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="big-font">💡 Otimize sua precificação em poucos passos com o APP!</div>', unsafe_allow_html=True)
+st.markdown('<div class="big-font">💡 Otimize sua precificação em poucos passos com o APP da CONTFLOW SOLUÇÕES!</div>', unsafe_allow_html=True)
 
 # BARRA DE CONFIGURAÇÕES GLOBAIS (sem menu lateral)
 
 # Menu de Ajuda
 with st.expander("❓ Ajuda e Explicações dos Termos"):
     st.markdown("""
-**Faturamento Mensal Previsto**: Quanto você espera faturar por mês.
+**Faturamento Mensal Previsto**: Quanto você espera faturar por mês, ou já fatura om o produto/serviço.
 
-**Despesas Fixas**: Custos que não mudam com a produção, como aluguel, energia, salários.
+**Despesas Fixas**: Custos que não mudam em função da quantidade vendida, como aluguel, energia, salários, sistemas, profissionais de marketing, contabilidade, etc.
 
-**Custos Variáveis**: Custos que variam com as vendas ou produção (matéria-prima, taxas, impostos).
+**Custos Variáveis**: Custos que variam com as vendas ou produção (matéria-prima, custo do produto adquirido para revenda, materiais e insumos para prestação do serviço, etc)
 
 **Lucro Líquido Alvo**: Percentual que você deseja lucrar sobre o faturamento.
 
-**Markup**: Diferença percentual entre o custo e o preço de venda.
+**Markup**: Diferença percentual entre o custo e o preço de venda, que "paga" todos os custos e ainda remura você com o lucro esperado.
 
-**Margem de Contribuição (MC)**: Parte da receita que "sobra" para cobrir custos fixos e gerar lucro.
+**Margem de Contribuição (MC)**: Parte da receita que "sobra" para cobrir custos fixos e gerar lucro (diferente do Markup que cobre tudo, inclusive impostos e taxa).
 
-**Reserva/Reinvestimento**: Valor reservado para expansão, emergências ou reinvestimento.
+**Reserva/Reinvestimento**: Valor reservado para expansão, emergências ou reinvestimento, caso queira incluir no seu preço de venda. Ex: se você possui equipamentos e veículos necessários para atividade da empresa, eles possuem depreciação, e esta taxa serveria para em um determinado período você renovar esses bens.
 
-Você pode incluir mais explicações ou ajustar conforme o seu público.
 """)
 
 
